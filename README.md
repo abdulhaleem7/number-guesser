@@ -18,13 +18,9 @@ A simple number guessing game built with **Vanilla JavaScript**.
 ## 🛠 Setup
 1. Clone the repo
 ```bash
-git clone <repo-url>
+git clone https://github.com/abdulhaleem7/number-guesser
 ```
 2. Open `index.html` in your browser.
-3. You can also deploy using GitHub Pages or Vercel.
 
-## 🧠 Optional Enhancements
-- Add animations and sounds.
-- Track best scores across sessions.
-
+Live url
 Enjoy playing! 🥳
