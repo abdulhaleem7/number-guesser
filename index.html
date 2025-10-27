@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Number Guesser Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Number Guesser Game</h1>
+    <p id="instruction">Guess the secret number between 1 and 100!</p>
+
+    <div class="difficulty">
+      <label for="difficulty">Select Difficulty:</label>
+      <select id="difficulty">
+        <option value="easy">Easy (15 guesses)</option>
+        <option value="medium" selected>Medium (10 guesses)</option>
+        <option value="hard">Hard (5 guesses)</option>
+      </select>
+    </div>
+
+    <input type="number" id="guessInput" placeholder="Enter your guess" />
+    <button id="submitGuess">Submit Guess</button>
+
+    <p id="feedback"></p>
+    <p id="attempts">Remaining Attempts: <span id="remaining">10</span></p>
+
+    <button id="restartBtn" class="hidden">Restart Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
